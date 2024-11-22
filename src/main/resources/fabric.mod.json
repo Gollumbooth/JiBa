@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "jiba",
+	"version": "${version}",
+	"name": "JiBa",
+	"description": "JJJJJJJJiBBBBBa",
+	"authors": [
+		"Guang!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jiba/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.gangy.jiba.JiBa"
+		],
+		"client": [
+			"com.gangy.jiba.JiBaClient"
+		],
+		"fabric-datagen": [
+			"com.gangy.jiba.JiBaDataGenerator"
+		]
+	},
+	"mixins": [
+		"jiba.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
