@@ -5,13 +5,13 @@
 	"name": "JiBa",
 	"description": "JJJJJJJJiBBBBBa",
 	"authors": [
-		"Guang!"
+		"Booth"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/jiba/icon.png",
 	"environment": "*",
 	"entrypoints": {
